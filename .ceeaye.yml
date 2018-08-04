@@ -1,0 +1,6 @@
+pipeline:
+  build:
+    image: busybox:latest
+    workingDir: /project
+    steps:
+      - run: ls -al
